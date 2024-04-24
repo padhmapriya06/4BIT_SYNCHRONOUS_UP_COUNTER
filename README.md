@@ -25,17 +25,29 @@ STEP:7 compare the output with truth table.
 ![image](https://github.com/RESMIRNAIR/4BIT_SYNCHRONOUS_UP_COUNTER/assets/154305926/62c47758-b0a4-4fe0-842f-5c4245a88ff2)
 # Program:
 module counter(
+
 input clk,
+
 input rst,
+
 output [3:0] y
+
 );
+
 reg [3:0] y;
+
 always @ (posedge (clk))
+
 begin
+
 if (rst==1'b1)
+
 y=4'b0000;
+
 else
+
 y=y+1;
+
 end
 # Output:
 ![image](https://github.com/padhmapriya06/4BIT_SYNCHRONOUS_UP_COUNTER/assets/160568779/1c9a4515-c2ee-487a-ae56-755f8d6415f8)
