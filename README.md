@@ -50,7 +50,8 @@ y=y+1;
 
 end
 # Output:
-![image](https://github.com/padhmapriya06/4BIT_SYNCHRONOUS_UP_COUNTER/assets/160568779/1c9a4515-c2ee-487a-ae56-755f8d6415f8)
+![image](https://github.com/padhmapriya06/4BIT_SYNCHRONOUS_UP_COUNTER/assets/160568779/57aa9a29-cfbf-460d-a5df-2ed8f410ce5c)
+
 # Result:
 Thus 4 bit synchronous up counter is verified successfully.
 
